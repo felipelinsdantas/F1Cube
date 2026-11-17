@@ -1,0 +1,23 @@
+F1 CUBE - VERSÃO APP (PWA)
+
+Conteúdo: index.html (o jogo), manifest.webmanifest, sw.js e a pasta icons.
+Mantenha todos os arquivos juntos, na mesma pasta.
+
+1) HOSPEDAR (grátis, precisa de https)
+   - Netlify: acesse app.netlify.com/drop e arraste a PASTA f1cube-pwa.
+   - Ou GitHub Pages / Cloudflare Pages / Neocities: envie todos os arquivos.
+   - itch.io: envie o .zip como "HTML" (o app instalável não se aplica lá).
+
+2) INSTALAR NO ANDROID
+   - Abra o endereço do jogo no Chrome do celular.
+   - Menu (3 pontinhos) > "Instalar app" ou "Adicionar à tela inicial".
+   - O jogo abre em tela cheia, deitado, e funciona sem internet depois da primeira abertura.
+
+3) GERAR O APK (opcional)
+   - Com o jogo hospedado, acesse pwabuilder.com, cole o endereço e escolha Android.
+   - Para a Google Play é preciso conta de desenvolvedor (taxa única; confira o valor atual).
+
+OBSERVAÇÕES
+   - Fora do claude.ai, o login Claude, o salvamento na nuvem e o multijogador não funcionam.
+   - O progresso (fases, cores, recordes) fica salvo no próprio aparelho.
+   - Ao publicar uma versão nova, mude CACHE='f1cube-v1' em sw.js (ex.: v2) para o app atualizar.
